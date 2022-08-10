@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FDF8F5;
+    width: 100%;
+}
+
+body{
+    background-color: #eecfbd;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    min-width: 1000px;
+}
+
+.mainbanner{
+    margin:auto;
+    background-color: #ebba9e;
+    border-bottom: 8px solid #c49a83;
+}
+
+.mainbanner img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.mid{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1150px;
+}
+
+.comabout{
+    width: 1000px;
+    display: inline-flex;
+    background-color: #c49a83;
+    border-radius: 10px;
+    height: 650px;
+    padding-top: 25px;
+}
+
+.compic{
+    width: 500px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 60px;
+}
+
+.compic img{
+    height: 290px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.comaboutcontainer{
+    padding-top: 20px;
+    width: 700px;
+    padding-right: 100px;
+}
+
+.comstory{
+    text-align: left;
+}
+
+.comstory h1{
+    padding-bottom: 30px;
+    font-size: 45px;
+}
+
+.comstory p{
+    line-height: 30px;
+    font-size: 19px;
+}
+
+/*footer*/
+
+.bot{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: darkslategray;
+    margin-top: 150px;
+}
+
+.botcontainer{
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 1349px;
+    padding-left: 225px;
+}
+
+.botlogo{
+    width: 250px;
+}
+
+.botlogo img{
+    height: auto;
+    width: 200px;
+    margin-top: 25px;
+}
+
+.access{
+    position: relative;
+    width: 380px;
+}
+
+.aQuick{
+    padding-left: 40px;
+    border-left: 1px solid #FDF8F5;
+    position: relative;
+    top: 40px;
+    text-align: left;
+}
+
+.aAccess ul{
+    list-style-type: none;
+    text-align: left;
+}
+
+.aAccess li{
+    display: inline-flex;
+    padding-bottom: 12px;
+}
+
+.aAccess img{
+    width: auto;
+    height: 30px;
+}
+
+.aAccess p{
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.botabout{
+    width: 230px;
+    text-align: left;
+    position: relative;
+    top: 40px;
+}
+
+.botabout p{
+    padding-top: 15px;
+    line-height: 30px;
+}
+
+/*bottom navigation*/
+
+.botnav{
+    display: inline-flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45px;
+    background-color: #1e3333;
+}
+
+.botbutton{
+    text-align: center;
+    margin: auto;
+}
+
+.botbutton ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.botbutton ul li{
+    border-right: 1px solid#FDF8F5;
+    padding-right: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    width: 87px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+

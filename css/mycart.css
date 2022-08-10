@@ -1,0 +1,91 @@
+.orderform input::-webkit-outer-spin-button,
+.orderform input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FDF8F5;
+    width: 100%;
+}
+
+body{
+    background-color: #eecfbd;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    min-width: 1000px;
+}
+
+.mid{
+    border-radius: 10px;
+    width: 900px;
+    padding: 50px 50px 50px 50px;
+}
+
+td{
+    width: 300px;
+    padding-left: 30px;
+}
+
+.ctable table{
+    border-collapse: separate;
+    border-spacing: 0 20px;
+    background-color: #A5816E;
+    padding: 10px 0px 10px 0px;
+    text-align: left;
+    border-radius: 10px;
+}
+
+.ctable table tr{
+    background-color: #5F4A3F;
+    height: 40px;
+}
+
+.ctable input[type=number]{
+    background-color: #A5816E;
+    border-radius: 5px;
+    border: 0;
+    width: 50px;
+    height: 20px;
+    text-align: right;
+    padding-right: 5px;
+}
+
+.checkout{
+    background-color: #A5816E;
+    width: 500px;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*contact form for customer*/
+
+.orderform{
+    background-color: #5F4A3F;
+    width: 90%;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    text-align: left;
+}
+
+.orderform input[type=text]{
+    width: 70%;
+    height: 30px;
+    margin-bottom: 30px;
+    background-color: #A5816E;
+    border-radius: 5px;
+    border: 0;
+    padding-left: 10px;
+}

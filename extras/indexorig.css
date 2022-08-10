@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FDF8F5;
+    width: 100%;
+}
+
+body{
+    background-color: #eecfbd;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    min-width: 1000px;
+}
+
+.mainbanner{
+    margin:auto;
+    background-color: #ebba9e;
+    border-bottom: 8px solid #c49a83;
+}
+
+.mainbanner img{
+    width: 100%;
+}
+
+.navigation{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 3%;
+    margin-top: 3%;
+}
+
+.navigation ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.navigation ul li{
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    background-color: darkslategray;
+    border-radius: 10px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.mid{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1150px;
+}
+
+.midheader{
+    display: inline-flex;
+    background-color: #c49a83;
+    border-radius: 10px;
+    padding-top: 30px;
+    height: 400px;
+}
+
+.midheader img{
+    height: 300px;
+    width: auto;
+    margin-left: 40px;
+    margin-top: 25px;
+    border-radius: 100%;
+}
+
+.shopinfo{
+    padding-top: 40px;
+    padding-left: 25px;
+}
+
+.shopinfo ul{
+    margin-left: 0px;
+    width: 790px;
+}
+
+.shopinfo li{
+    text-align: left;
+    font-size: 18.8px;
+    list-style-type: none;
+    height: 50px;
+}
+
+.categories{
+    margin-top: 70px;
+    display: inline-flex;
+    margin-bottom: 50px;
+}
+
+.col{
+    width: 300px;
+}
+
+.categories img{
+    height: 500px;
+    width: auto;
+    border-radius: 10px;
+    border: 2px solid #c49a83;
+}
+
+.customerreview{
+    padding-top: 100px;
+}
+
+.customerreview img{
+    border-radius: 10px;
+    border: 2px solid #c49a83;
+}
+
+/*product header*/
+
+.productheader{
+    height: 70px;
+    padding-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #A5816E;
+    width: 300px;
+    border-radius: 20px;
+}
+
+/*shop*/
+
+.top-shop{
+    width: 1100px;
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.product-grid{
+    display: grid;
+    grid-template-rows: repeat(4, 370px);
+    grid-template-columns: repeat(5, 200px);
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+}
+.product{
+    border-radius: 10px;
+    padding-top: 30px;
+    background-color: rgb(196, 154, 131);
+}
+.product img{
+    border-radius: 10px;
+    height: 150px;
+    width: auto;
+}
+.product h4, h5{
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+    padding-top: 10px;
+}
+.product-info{
+    background-color: #a5816e;
+    margin-top: 10px;
+    position: relative;
+    left: 20px;
+    height: 120px;
+    width: 78%;
+    border-radius: 10px;
+}
+.cartform{
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+}
+.cartform input{
+    text-align: center;
+}
+.cartform input[type=number]{
+    background-color: #a5816e;
+    border: 0;
+    border-radius: 5px;
+    width: 55px;
+    height: 20px;
+}
+.cartform input[type=submit]{
+    background-color: #5f4a3f;
+    border: 0;
+    border-radius: 5px;
+    width: 95px;
+    height: 20px;
+}
+
+/*footer*/
+
+.bot{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: darkslategray;
+    margin-top: 150px;
+}
+
+.botcontainer{
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 1349px;
+    padding-left: 225px;
+}
+
+.botlogo{
+    width: 250px;
+}
+
+.botlogo img{
+    height: auto;
+    width: 200px;
+    margin-top: 25px;
+}
+
+.access{
+    position: relative;
+    width: 380px;
+}
+
+.aQuick{
+    padding-left: 40px;
+    border-left: 1px solid #FDF8F5;
+    position: relative;
+    top: 40px;
+    text-align: left;
+}
+
+.aAccess ul{
+    list-style-type: none;
+    text-align: left;
+}
+
+.aAccess li{
+    display: inline-flex;
+    padding-bottom: 12px;
+}
+
+.aAccess img{
+    width: auto;
+    height: 30px;
+}
+
+.aAccess p{
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.botabout{
+    width: 230px;
+    height: 170px;
+    text-align: left;
+    position: relative;
+    top: 40px;
+}
+
+.botabout p{
+    padding-top: 15px;
+    line-height: 30px;
+}
+
+/*bottom navigation*/
+
+.botnav{
+    display: inline-flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45px;
+    background-color: #1e3333;
+}
+
+.botbutton{
+    text-align: center;
+    margin: auto;
+}
+
+.botbutton ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.botbutton ul li{
+    border-right: 1px solid#FDF8F5;
+    padding-right: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    width: 100px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+
+

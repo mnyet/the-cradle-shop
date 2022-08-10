@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FDF8F5;
+    width: 100%;
+}
+
+body{
+    background-color: #eecfbd;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    min-width: 1349px;
+}
+
+.mainbanner{
+    margin:auto;
+    background-color: #ebba9e;
+    border-bottom: 8px solid #c49a83;
+}
+
+.mainbanner img{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+hr{
+    color: #c49a83;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.mid{
+    width: 1150px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.coninfo{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-gap: 50px;
+    padding-left: 50px;
+}
+
+.contact{
+    margin-left: auto;
+    margin-right: auto;
+    height: 450px;
+    width: 500px;
+    background-color: #C49A83;
+    border-radius: 10px;
+    padding-top: 50px;
+}
+
+.contact img{
+    width: 495px;
+    height: auto;
+}
+
+.contactqr img{
+    height: 150px;
+    width: auto;
+}
+
+.contactgrid{
+    width: 200px;
+    display: grid;
+    grid-gap: 40px 10px;
+    grid-template-columns: 200px 200px;
+    position: relative;
+    bottom: 25px;
+    left: 50px;
+}
+
+.infotext{
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.socmed{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    text-align: center;
+    background-color: 0;
+    position: relative;
+    bottom: 30px;
+    background-color: #A5816E;
+    width: 400px;
+    height: 130px;
+}
+
+.socmed img{
+    padding-top: 20px;
+    height: 90px;
+    width: auto;
+}
+
+.socmed h3{
+    padding-top: 35px;
+}
+
+.qr{
+    width: 45%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    min-width: 525px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/*footer*/
+
+.bot{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: darkslategray;
+    margin-top: 150px;
+}
+
+.botcontainer{
+    display: inline-flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 1349px;
+    padding-left: 225px;
+}
+
+.botlogo{
+    width: 250px;
+}
+
+.botlogo img{
+    height: auto;
+    width: 200px;
+    margin-top: 25px;
+}
+
+.access{
+    position: relative;
+    width: 380px;
+}
+
+.aQuick{
+    padding-left: 40px;
+    border-left: 1px solid #FDF8F5;
+    position: relative;
+    top: 40px;
+    text-align: left;
+}
+
+.aAccess ul{
+    list-style-type: none;
+    text-align: left;
+}
+
+.aAccess li{
+    display: inline-flex;
+    padding-bottom: 12px;
+}
+
+.aAccess img{
+    width: auto;
+    height: 30px;
+}
+
+.aAccess p{
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.botabout{
+    width: 230px;
+    text-align: left;
+    position: relative;
+    top: 40px;
+}
+
+.botabout p{
+    padding-top: 15px;
+    line-height: 30px;
+}
+
+/*bottom navigation*/
+
+.botnav{
+    display: inline-flex;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    height: 45px;
+    background-color: #1e3333;
+}
+
+.botbutton{
+    text-align: center;
+    margin: auto;
+}
+
+.botbutton ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+.botbutton ul li{
+    border-right: 1px solid#FDF8F5;
+    padding-right: 20px;
+    display: inline-block;
+    margin-right: 20px;
+    width: 87px;
+    font-weight: bold;
+    font-size: 15px;
+}

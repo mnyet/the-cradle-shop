@@ -1,0 +1,8 @@
+
+    if(!isset($_SESSION['adminlogin_id']))
+    {
+        header("location: admin_login.php");
+    }
+
+
+    <?php echo $_SESSION['adminlogin_id'] ?>

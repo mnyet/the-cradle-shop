@@ -1,0 +1,14 @@
+1. /adminpanel/connection.php
+
+2. index.php
+
+3. purchase.php
+
+credentials:
+
+    $servername = "#";
+    $db_username = "#";
+    $db_password = "#";
+    $db_name = "#";
+
+//i removed these credentials for obvious reasons.
